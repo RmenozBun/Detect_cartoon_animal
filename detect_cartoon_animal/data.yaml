@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 10
+names: ['anteater', 'chicken', 'donkey', 'dugong', 'elephant', 'giraffe', 'kangaroo', 'monkey', 'panda', 'rabbit']
+
+roboflow:
+  workspace: bunkung
+  project: detect_cartoon_animal
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/bunkung/detect_cartoon_animal/dataset/4
